@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resturant website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+       <style>
+
+        
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .header {
+            border: 2px solid;
+            height: 50px;
+            background-color: black;
+            
+        }
+
+        .li1 {
+            
+            font-weight: bolder;
+            margin-top: 5px;
+            font-size: 23px;
+            margin-right: 30px;
+            float: inline-end;
+        }
+
+        .headernav2 {
+            font-weight: bolder;
+            font-size: 20px;
+            color: yellow;
+            font-size: 30px;
+            margin-left: 20px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .lnk1{
+            text-decoration: none;
+            color:white;
+            
+            
+        }
+       .dv3{
+        background-image: url(../Images/resturant\ image2.avif);
+        height:900px;
+        background-size: 100%;
+        z-index: 10px;
+       }
+      .textdecorate{
+        font-size: 70px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+      }
+      .textcolor{
+        color:red;
+      } 
+      .textdecorate2{
+        text-align: center;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        margin: 40px;
+        
+      }
+      .dv4{
+        background-color: aliceblue;
+        box-shadow: 10px;
+        
+      }
+      .textdecorate3{
+       text-align: center;
+       font-size: 25px;
+       font-weight: bolder;
+       font-family: 'Courier New', Courier, monospace;
+       color: aqua;
+       background-color:chocolate;
+       border: 2px solid;border-color: aliceblue;
+       padding: 5px;
+      }
+      .peragraph1{
+        text-align: center;text-align: justify;
+        font-size: 17px;padding: 10px;
+        background-color: rgb(198, 249, 249);
+      }     
+.headingimag{
+    display: flex;
+    justify-content: space-evenly;
+ background-color: rgb(226, 246, 186);
+}
+.twocard{
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+.image-card-heading{
+   margin-left: 10px;    
+}
+.adventureimage1{
+    margin: 15px;
+}
+.footer-container{
+    background-color: rgb(2, 2, 53);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container-image{
+    width: 200px;margin-top: 40px;
+}
+.footer-heading{
+    color: rgb(248, 248, 90);
+}
+.footer-peragraph{
+    color: aliceblue;
+    line-height: 40px;
+}
+.footer-button{
+    display: block;padding: 10px;
+}
+
+    
+@media (min-width: 768px)
+        {
+            .dv3{
+                height: 420px;
+            }
+            .headernav2{
+                font-size: 17px;
+                
+            }
+            .li1{
+                font-size: 17px;
+            }
+            .textdecorate{
+                font-size: 35px;
+            }
+            .textdecorate3{
+                font-size: 16px;
+            }
+            .twocardimag1{
+                  width: 200px;
+       }
+       .twocardimag2{
+                  width: 200px;      
+       }
+       .imagcard{
+        width: 150px;
+        margin-left: 20px;
+       }
+       .imagcard2{
+        width: 150px;
+        margin-left: 40px;
+        
+       }
+       .footerperagraph{
+        border: 4px solid;
+        
+       }
+       .learnmore{
+       display: block;
+       }
+       .footer{
+        
+       }
+       .footerimage{
+        display: block;
+       }
+       .labl{
+        padding:20-px;
+       }
+       .adventureimage{
+        margin-left: 20px;
+       }
+        }
+        @media(max-width:600px)
+        {
+            .headernav1{
+                padding-top: 10px;
+            }
+            .headernav2{
+                font-size: 16px;
+                margin-top: 50px;
+                
+            }
+            .li1{
+        font-size: 16px;
+        
+      }
+     .textdecorate{
+        font-size: 20px;
+     }
+     .textdecorate2{
+        font-size: 16px;
+     }
+     .textdecorate3{
+        font-size: 14px;
+     }
+     .imagcard{
+        width: 150px;
+        margin: 2px;
+     }
+     .adventureimage{
+       
+       margin-left: 50px;
+     }
+     .adventureimage1{
+        width: 145px;
+        
+       }
+       
+       .twocardimag1{
+        width: 200px;
+       }
+       .dv3{
+        height: 420px;
+       }
+       .footer-container{
+        
+        
+       }
+       .footer-heading{
+        font-size: 17px;
+        
+       }
+        .image-card-heading{
+        font-size: 16px;
+       }
+       .footer-container-image{
+        width: 100px;
+       }
+        
+        }   
+       </style>
+</head>
+
+<body>
+    <div>
+    <div class="header">
+        <nav class="headernav1">
+
+            <span class="headernav2">SakOOn HoTel</span>
+
+            <span class="li1"><a class="lnk1" href="home">about</a></span>
+            <span class="li1"><a class="lnk1" href="punjab">visit your choice</a></span>
+            <span class="li1"><a class="lnk1" href="kpk">Events</a></span>
+            <span class="li1"><a class="lnk1" href="gilgit">menu</a></span>
+        </nav>
+    </div>
+    <div class="dv3">
+    <div>
+      <p class="textdecorate">Sak<span class="textcolor">OO</span>n Ho<span class="textcolor">Te</span>l
+        <br>
+        <span class="textdecorate">Sakoon Ki Recipe</span>
+    </p>
+    <p class="textdecorate2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sit consequuntur reiciendis optio necessitatibus fugiat, aut corrupti. Quod, distincti
+        o maxime? At soluta saepe numquam placeat culpa possimus omnis consequuntur doloremque?</p>
+        <p class="textdecorate2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique ea at sapiente saepe quo veniam 
+            aut quos id deserunt ad assumenda debitis quibusdam nobis laudantium quod cum, eveniet animi.</p>
+    </div>
+    </div>
+    <div class="dv4">
+       <p class="textdecorate3">Yes There is a very delicious and flavorful Bombbay Beryani </p> 
+       <p class="textdecorate3">Very delicious and fragrant Sawat Kajori with tea</p>
+       <p class="textdecorate3">Creamy Macroni Fruits Salaad Bolied Macroni</p>
+       <p class="textdecorate3">There is nothing less in sweetness, make whatever your heart desires</p>
+    </div>
+    <div class=" headingimag">
+       <figure>
+        <figcaption><h2 class="image-card-heading">Sandwich</h2></figcaption>
+        <img class="imagcard" src="../Images/jarmani dish1.jpeg" alt="">
+       </figure>
+       <figure>
+        <figcaption><h2 class="image-card-heading">vegetable</h2></figcaption>
+        <img class="imagcard" src="../Images/jarmani dish2.jpeg" alt="">
+       </figure>
+       <figure>
+        <figcaption><h2 class="image-card-heading">Creamy Noddles</h2></figcaption>
+        <img class="imagcard" src="../Images/jarmani dish 3.jpeg" alt="">
+       </figure>
+    </div>
+    <div class=" headingimag">
+        <figure>
+         <figcaption><h2 class="image-card-heading">Sandwich</h2></figcaption>
+         <img class="imagcard" src="../Images/jarmani dish1.jpeg" alt="">
+        </figure>
+        <figure>
+         <figcaption><h2 class="image-card-heading">vegetable</h2></figcaption>
+         <img class="imagcard" src="../Images/jarmani dish2.jpeg" alt="">
+        </figure>
+        <figure>
+         <figcaption><h2 class="image-card-heading">Creamy Noddles</h2></figcaption>
+         <img class="imagcard" src="../Images/jarmani dish 3.jpeg" alt="">
+        </figure>
+     </div>
+                        
+            
+            
+            <div class="twocard">
+                <img class="twocardimag1" src="../Images/RESTURANT00.jpeg" alt="">
+                <img class="twocardimag2" src="../Images/RESTURANT99.jpeg" alt="">
+            </div>
+            <div class="adventureimage" style="padding-left: 70px;">
+                <img  class="adventureimage1" src="../Images/adventure1.jpeg" alt="">
+                <img  class="adventureimage1" src="../Images/adventure1.jpeg" alt="">
+                <img  class="adventureimage1" src="../Images/adventure1.jpeg" alt="">
+                <img  class="adventureimage1" src="../Images/adventure1.jpeg" alt="">
+            </div>
+            <footer class="footer-container">
+                <nav>
+                    <img class="footer-container-image"src="../Images/home.jpeg" alt="home">
+                </nav>
+                <nav >
+                    <h3 class="footer-heading">learn more</h3>
+                    <p class="footer-peragraph">
+                        Lorem ipsum dolor sit amet <br>
+                         consectetur adipisicing elit. <br>
+                          Iste in, repellat exercitationem <br>
+                           quam molestiae ut. Doloribus, <br>
+                            cumque repellendus.
+                    </p>
+                </nav>
+                <nav>
+                    <h3 class="footer-heading">visit to go</h3>
+                   <label class="footer-button">
+                    <button>Jarmany</button>
+                   </label>
+                   <label class="footer-button">
+                    <button>France</button>
+                   </label>
+                   <label class="footer-button">
+                    <button>Spain</button>
+                   </label>
+                   <label class="footer-button">
+                    <button>Thailand</button>
+                   </label>
+                </nav>
+                <nav>
+                    <h3 class="footer-heading">Contact</h3>
+                   <label class="footer-button">
+                    <button>Home</button>
+                   </label>
+                   <label class="footer-button">
+                    <button>About</button>
+                   </label>
+                   <label class="footer-button">
+                    <button>Contact</button>
+                   </label>
+                   <label class="footer-button">
+                    <button>Help</button>
+                   </label>
+                </nav>
+            </footer>
+            
+           
+    </div>
+</body>
